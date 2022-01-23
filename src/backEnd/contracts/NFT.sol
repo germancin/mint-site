@@ -11,7 +11,7 @@ contract NFT is ERC721, Ownable {
 
   event Purchase(address owner, uint price, uint id, string uri);
 
-  constructor() ERC721("Menesteres NFT", "MTR") {
+  constructor() ERC721("Montanita MNT", "MNT") {
   	_owner = msg.sender;
   }
 
